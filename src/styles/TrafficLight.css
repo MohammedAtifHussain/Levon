@@ -1,0 +1,47 @@
+.traffic-light-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.light {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px 0;
+  opacity: 0.3;
+  background-color: gray;
+}
+
+.light.red {
+  background-color: red;
+}
+
+.light.yellow {
+  background-color: yellow;
+}
+
+.light.green {
+  background-color: green;
+}
+
+.light.active {
+  opacity: 1;
+}
+
+.pedestrian-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pedestrian-button:hover {
+  background-color: #ff9900;
+}
